@@ -1,0 +1,40 @@
+@model IEnumerable<CompanyAuth.Models.Area>
+@{
+    ViewData["Title"] = "Lista de Areas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem Vindo!!</h1>
+   
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Id</th>
+      <th scope="col">Area</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+            <tr>
+                <td>
+                    <a asp-action="New">Novo</a>
+                </td>
+            </tr>
+      @foreach (var item in Model) {
+    <tr>
+      <th scope="row"></th>
+      <td> @Html.DisplayFor(modelItem => item.id)</td>
+      <td> @Html.DisplayFor(modelItem => item.arenaName)</td>
+      <td>
+            <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+               
+            <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+       </td>
+    </tr>
+    }
+  </tbody>
+</table>
+    
+</div>

@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{8705AD16-AF0B-4357-9B0D-16543BBE6A00}|Default">
+  <MonoDevelop.Ide.ItemProperties.CompanyAuth PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CompanyAuth" expanded="True">
+            <Node name="CompanyAuth" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AreaController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

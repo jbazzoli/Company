@@ -1,0 +1,19 @@
+@model CompanyAuth.Models.Area
+@{
+    ViewData["Title"] = "Lista de Areas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem Vindo !!</h1>
+ @using (Html.BeginForm())
+{ 
+  @Html.EditorFor(model => model.arenaName, new { htmlAttributes = new { @class = "form-control" } })
+  <div class="form-group">
+            <div >
+                <input type="submit" value="Deletar" class="btn btn-default" />
+            </div>
+    </div>
+    
+ }
+   
+ </div>
