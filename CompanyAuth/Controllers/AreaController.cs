@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using CompanyAuth.Data;
 using CompanyAuth.Models;
 using Microsoft.AspNetCore.Authorization;

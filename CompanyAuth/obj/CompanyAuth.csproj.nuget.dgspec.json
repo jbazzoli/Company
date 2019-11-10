@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/CompanyAuth/CompanyAuth.csproj": {}
+    "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/Company/CompanyAuth/CompanyAuth.csproj": {}
   },
   "projects": {
-    "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/CompanyAuth/CompanyAuth.csproj": {
+    "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/Company/CompanyAuth/CompanyAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/CompanyAuth/CompanyAuth.csproj",
+        "projectUniqueName": "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/Company/CompanyAuth/CompanyAuth.csproj",
         "projectName": "CompanyAuth",
-        "projectPath": "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/CompanyAuth/CompanyAuth.csproj",
+        "projectPath": "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/Company/CompanyAuth/CompanyAuth.csproj",
         "packagesPath": "/home/jbazzoli/.nuget/packages/",
-        "outputPath": "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/CompanyAuth/obj/",
+        "outputPath": "/home/jbazzoli/Documentos/VisualStudio/CompanyAuth/Company/CompanyAuth/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
