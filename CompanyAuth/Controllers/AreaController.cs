@@ -28,7 +28,7 @@ namespace CompanyAuth.Controllers
         }
         public IActionResult Edit(int id)
         {
-            var edit = _context.Area.Where(p => p.id == id).FirstOrDefault();
+            var edit = _context.Area.Where(p => p.Id == id).FirstOrDefault();
             return View(edit);
         }
         public IActionResult New()
@@ -38,7 +38,7 @@ namespace CompanyAuth.Controllers
         }
         public IActionResult Delete(int id)
         {
-            var delete = _context.Area.Where(p => p.id == id).FirstOrDefault();
+            var delete = _context.Area.Where(p => p.Id == id).FirstOrDefault();
             return View(delete);
         }
         [HttpPost]
@@ -46,8 +46,8 @@ namespace CompanyAuth.Controllers
         {
             if (ModelState.IsValid)
             {
-               var edit = _context.Area.Find(area.id);
-                edit.arenaName = area.arenaName;
+               var edit = _context.Area.Find(area.Id);
+                edit.ArenaName = area.ArenaName;
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }

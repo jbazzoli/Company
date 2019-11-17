@@ -1,9 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+
+
 namespace CompanyAuth.Models { 
 public class Area
     {
-        public int id { get; set; }
-        public string arenaName { get; set; }
-
+        public Area()
+        {
+          Persons  = new HashSet<Person> ();
+        }
+        public int Id { get; set; }
+        public string ArenaName { get; set; }
+        public ICollection<Person> Persons { get; set; }
     }
 }

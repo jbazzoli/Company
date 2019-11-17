@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{8705AD16-AF0B-4357-9B0D-16543BBE6A00}|Default">
   <MonoDevelop.Ide.ItemProperties.CompanyAuth PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Area/Delete.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/PersonController.cs">
     <Files>
-      <File FileName="Views/Area/Index.cshtml" Line="8" Column="4" />
-      <File FileName="Views/Area/New.cshtml" Line="17" Column="3" />
-      <File FileName="Views/Area/Edit.cshtml" Line="13" Column="75" />
-      <File FileName="Views/Area/Delete.cshtml" Line="10" Column="32" />
+      <File FileName="Views/Person/Index.cshtml" Line="39" Column="16" />
+      <File FileName="Models/Area.cs" Line="14" Column="9" />
+      <File FileName="Controllers/PersonController.cs" Line="78" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyAuth" expanded="True">
             <Node name="CompanyAuth" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="PersonController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Area" expanded="True">
-                  <Node name="Delete.cshtml" selected="True" />
-                </Node>
+                <Node name="Area" expanded="True" />
+                <Node name="Person" expanded="True" />
               </Node>
             </Node>
           </Node>

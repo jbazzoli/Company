@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using CompanyAuth.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using Microsoft.AspNetCore.HttpOverrides;
 namespace CompanyAuth
 {
     public class Startup
@@ -56,7 +56,10 @@ namespace CompanyAuth
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -69,6 +72,10 @@ namespace CompanyAuth
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            app.Run(async (context) =>
+            {
+                  await context.Response.WriteAsync("Hello World from my little app!");
+             });
         }
     }
 }
